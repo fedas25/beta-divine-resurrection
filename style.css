@@ -1,0 +1,180 @@
+body {
+margin: 0 auto;
+}
+
+@font-face {
+font-family: "Open_Sans"; 
+src: url("roboto/Open_Sans/OpenSans-SemiBold.ttf"); 
+}
+
+@font-face {
+font-family: "open_san_bold"; 
+src: url("roboto/Open_Sans/OpenSans-Bold.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "text"; 
+src: url("roboto/Open_Sans/OpenSans-SemiBoldItalic.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "zagol"; 
+src: url("roboto/Open_Sans/OpenSans-ExtraBold.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "blue"; 
+src: url("roboto/Open_Sans/OpenSans-Italic.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "releway"; 
+src: url("roboto/Raleway/static/Raleway-Regular.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "releway_reg"; 
+src: url("roboto/Raleway/static/Raleway-Regular.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+}
+
+@font-face {
+font-family: "OpenSans_regular"; 
+src: url("roboto/Open_Sans/OpenSans-Regular.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "OpenSans_bold"; 
+src: url("roboto/Open_Sans/OpenSans-Bold.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+@font-face {
+font-family: "dol"; 
+src: url("roboto/Raleway/static/Raleway-Bold.ttf"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	Align-items: center;
+	height: 100%;
+	width: 98%;
+	font-family: Open_Sans;
+}
+
+.pod_men {
+	color: #f5f5f5;
+	margin-right: 3%;
+}
+
+.an {
+	background-color: #F4CC3B;
+	height: 800px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.ul {	
+	font-family: text;
+	color: #960E0E;
+}
+
+.carcar {
+	color: #375CEF;
+	font-family: blue;
+	max-width: 600px;
+	font-size: 20px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+
+.img {
+	height: 50px;
+	width: 50px;
+}
+
+.blok {
+	max-width: 30%;
+
+}
+
+.zar {
+	height: 30%;
+	font-family: open_san_bold;
+	
+}
+
+.pre {
+	display: flex;
+	justify-content:space-around;
+		
+}
+
+.plus {
+
+	font-family: Open_Sans;
+	margin-top: 20px;
+	
+}
+
+.cen {
+	display: flex;
+	justify-content:space-around;
+	max-width: 850px;
+	margin: 0 auto;
+
+}
+
+.pod_cena {
+	font-family: OpenSans_regular;
+	color: 86878B;
+	font-size: 15px;
+	margin-top: 22px;
+	text-align: center;
+	color: #86878B;
+}
+
+.otz {
+	display: flex;
+	justify-content: space-around;
+}
+
+.people {
+	max-width: 250px: 
+	color:#86878B;
+	font-size: 20px;
+}
+
+.name {
+	size: 30px; color: #333333; 
+	font-family: open_san_bold; 
+	text-align: center;
+	width: 200px;
+}
+
+.izrail {
+	font-family: OpenSans_regular;
+	color: #86878B;
+	font-size: 15px;
+	max-width: 250px;
+}
